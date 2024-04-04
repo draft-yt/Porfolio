@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+.competence {
+    width: 40em;
+    margin-bottom: 15px;
+
+}
+
+.point {
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+
+.stage {
+    width: 25em;
+    margin-bottom: 15px;
+
+}
+
+.presentation {
+    width: 40em;
+    margin-bottom: 15px;
+    flex: 1;
+}
+
+.flex {
+    flex: 1;
+}
+
+.image {
+    flex: 0 0 auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.head {
+    width: 35%;
+    margin-left: 4em;
+}
+
+.head2 {
+    width: 60px;
+    margin-left: 5em;
+}
+
+.head3 {
+    width: 60px;
+    margin-left: 4em;
+}
+
+.titre {
+    margin-top: 2em;
+    margin-bottom: 0.6em;
+    font-size: 2.4rem;
+    font-weight: bold;
+    width: 2em;
+}
+
+.titre2 {
+    margin-top: 2em;
+    margin-bottom: 0.6em;
+    font-size: 2.4rem;
+    font-weight: bold;
+    width: 16em;
+}
+
+.titrep {
+    margin-top: 2em;
+    margin-bottom: 0.6em;
+    font-size: 2.4rem;
+    font-weight: bold;
+    width: 4em;
+    margin-left: 2em;
+}
+
+.veille {
+    width: 40em;
+    margin-bottom: 15px;
+
+}
+
+.rapport {
+    width: 13em;
+    margin-bottom: 15px;
+
+}
+
+.projet {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.p-text {
+    width: 35em;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.small {
+    width: 30%;
+    flex-shrink: 0;
+}
+
+
+.carousel {
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+}
+
+.slide {
+    flex: 0 0 100%;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.ang {
+    width: 60%;
+}
+
+button {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    font-size: 1rem;
+    border: 2px white solid;
+    border-radius: 7px;
+}
+
+.but {
+    margin: 2em;
+    margin-left: 1em;
+}
+
+.bouton {
+    text-align: center;
+    margin-bottom: 2em;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.b {
+    margin-left: 5px;
+    margin-right: 5px;
+    border: solid 3px white;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 3px;
+    background-color: white;
+    color: black;
+}
+
+.caption {
+    text-align: left;
+    /* Aligner le texte à gauche */
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    /* Espacement entre l'image et le texte */
+}
+
+.content {
+    display: flex;
+    /* Pour placer l'image et le texte sur la même ligne */
+    align-items: center;
+    /* Pour aligner les éléments verticalement au centre */
+}
+
+.co {
+    display: flex;
+}
+
+#snake {
+    position: absolute;
+}
+
+.snake-body {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.copyright {
+    text-align: center;
+
+}
+
+.contact {
+    font-size: 1.1rem;
+    margin: 2em;
+    margin-left: 5.3em;
+}
